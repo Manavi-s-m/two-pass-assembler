@@ -5,4 +5,6 @@ In the first pass, it reads the entire source program, looking only for label de
 
 In the second pass the instructions are again read and are assembled using the symbol table. Basically, the assembler goes through the program one line at a time, and generates machine code for that instruction. Then the assembler proceeds to the next instruction. In this way, the entire machine code program is created.
 
-Laoder: It allocates the memory space to the executable module in main memory and then transfers control to the beginning instruction of the program .
+Loader:
+
+It allocates the memory space to the executable module in main memory and then transfers control to the beginning instruction of the program .
